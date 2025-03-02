@@ -1,7 +1,7 @@
 // import React from "react";
 // import { Counter } from "./features/counter/Counter";
 import { Routes, Route } from "react-router-dom";
-import { Navbar } from "./app/Navbar";
+// import { Navbar } from "./app/Navbar";
 // import { PostsList } from "./features/posts/PostsList";
 // import { AddPostForm } from "./features/posts/AddPostForm";
 // import { SinglePostPage } from "./features/posts/SinglePostPage";
@@ -14,7 +14,7 @@ import Home from "./components/Page/Home/Home";
 function App() {
   return (
       <>
-          <Navbar />
+          {/* <Navbar /> */}
           <div className="App">
               <Routes>
                   <Route
