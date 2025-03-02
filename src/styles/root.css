@@ -1,0 +1,25 @@
+:root{
+    --base-text: #262626;
+    --secondary-text: #999999;
+    --link-button: #1A74FF;
+    --background: #F5F5F5;
+    --color-bg-cards: #fff ;
+    --team-a-background: #B3D1FF;
+    --team-a-text: #0047B3;
+    --team-b-background: #FFD6C8;
+    --team-b-text: #C83300;
+    --team-c-background: #A6FCC8;
+    --team-c-text: #059E42;
+  }
+
+
+  * {
+    color:var(--base-text,#262626);
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .App{
+    max-width: 1130px;
+    margin: 30px auto;
+  }
