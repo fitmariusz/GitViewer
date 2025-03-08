@@ -20,8 +20,8 @@ function App() {
                   <Route
                       path="/"
                       element={<Home/>}/>
-                  {/* <Route path="/posts/:postId" element={<SinglePostPage />} />
-                  <Route path="/editPost/:postId" element={<EditPostForm />} />
+                  {/* <Route path="/detalis/:userId" element={<SinglePostPage />} /> */}
+                  {/* <Route path="/editPost/:postId" element={<EditPostForm />} />
                   <Route path="/users" element={<UsersList />} />
                   <Route path="/users/:userId" element={<UserPage />} />
                   <Route path="/notifications" element={<NotificationsList />} /> */}

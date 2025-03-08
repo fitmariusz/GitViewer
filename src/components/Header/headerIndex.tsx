@@ -1,6 +1,5 @@
 import * as React from "react";
 
-
 // import "../../styles/root"
 import "./header.css";
 
@@ -13,15 +12,22 @@ interface Props {
   altLogo: string;
   mainPage: boolean;
 }
-export const Header: React.FC<Props> = ({ pathLogo, title, altLogo , mainPage=true}) => {
-
+export const Header: React.FC<Props> = ({
+  pathLogo,
+  title,
+  altLogo,
+  mainPage = true,
+}) => {
   return (
     <div className="divHeader">
-      { mainPage === false ? <Link to="/" className="headerLink">Back</Link> : null}
+      {mainPage === false ? (
+        <Link to="/" className="headerLink">
+          Back
+        </Link>
+      ) : null}
       <div className="divHeaderTitle">
-
-      <img src={pathLogo} alt={altLogo} width="50" height="50" />
-      <Title>{title}</Title>
+        <img src={pathLogo} alt={altLogo} width="50" height="50" />
+        <Title>{title}</Title>
       </div>
     </div>
   );

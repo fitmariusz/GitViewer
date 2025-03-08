@@ -1,0 +1,19 @@
+.teamA {
+  color: var(--team-a-text, #0047b3);
+  background-color: var(--team-a-background, #b3d1ff);
+}
+
+.teamB {
+  color: var(--team-b-text, #c83300);
+  background-color: var(--team-b-background, #ffd6c8);
+}
+
+.teamC {
+  color: var(--team-c-text, #059e42);
+  background-color: var(--team-c-background, #a6fcc8);
+}
+
+.teamA, .teamB, .teamC {
+padding: 2px;
+border-radius: 2px;
+}

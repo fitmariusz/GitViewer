@@ -1,7 +1,6 @@
-// import { SectionCardUsers } from "../../Cards/SectionCardUsers";
-
 
 import "../../../styles/root.css";
+import { SectionCardUsers } from "../../Cards/SectionCardUsers/sectionCardUsersIndex";
 import { Header } from "../../Header/headerIndex";
 
 const Home = (): React.ReactElement => {
@@ -12,7 +11,7 @@ const Home = (): React.ReactElement => {
         pathLogo={"https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"}
         altLogo={"GitHub Logo"}
         mainPage={true}      ></Header>
-      {/* <SectionCardUsers /> */}
+      <SectionCardUsers />
     </div>
   );
 };
