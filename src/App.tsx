@@ -10,6 +10,7 @@ import { Routes, Route } from "react-router-dom";
 // import { UserPage } from "./features/users/UserPage"
 // import { NotificationsList } from "./features/notifications/NotificationsList"
 import Home from "./components/Page/Home/Home";
+import Details from "./components/Page/Details/Details";
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
                   <Route
                       path="/"
                       element={<Home/>}/>
-                  {/* <Route path="/detalis/:userId" element={<SinglePostPage />} /> */}
+                  <Route path="/details/:login" element={<Details/>} />
                   {/* <Route path="/editPost/:postId" element={<EditPostForm />} />
                   <Route path="/users" element={<UsersList />} />
                   <Route path="/users/:userId" element={<UserPage />} />
